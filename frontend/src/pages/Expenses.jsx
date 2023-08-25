@@ -129,7 +129,7 @@ function ExpensePage() {
     if (totalExpense > budget) {
       debouncedShowBudgetExceeded();
     }
-  }, [totalExpense, budget]);
+  }, [totalExpense, budget, debouncedShowBudgetExceeded]);
 
   const handleDownloadCSV = () => {
     const csvContent = [
@@ -224,9 +224,6 @@ function ExpensePage() {
                           value={title}
                           onChange={handleInputChange}
                         />
-                        <p className="text-gray-600 text-xs italic">
-                          Make it as long and as crazy as you'd like
-                        </p>
                       </div>
                     </div>
 
