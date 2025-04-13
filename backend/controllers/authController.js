@@ -10,7 +10,7 @@ const signup = asyncHandler(async (req, res) => {
   const { name, email, password } = req.body;
 
   if (!name || !email || !password) {
-    res.status(400).json({ message: "Please add all fields" });
+    res.status(400).json({ message: "Please add all fields " });
     throw new Error("Please add all fields");
   }
 
