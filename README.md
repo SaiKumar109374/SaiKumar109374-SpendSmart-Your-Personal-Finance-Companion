@@ -55,7 +55,3 @@ Follow these steps to get started with Spend Smart:
 
 ### Database
 - MongoDB with Mongoose
-
-## Feedback and Support
-
-We value your feedback! For any questions, suggestions, or support inquiries, please feel free to contact us at shihab2209@gmail.com. Your input helps us improve Spend Smart for a better user experience.
